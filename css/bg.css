@@ -1,0 +1,183 @@
+﻿@charset "utf-8";
+body{
+	background-color:#555;
+	background-image: url("../images/bg2.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position:center center;
+	background-size:cover;
+	margin:0 0 0 0;
+}
+#bg{
+	width:100%;
+	height:100%;
+}
+.bgc{
+	margin-top:0px;
+}
+#second{
+	background-color:white;
+}
+a{
+	text-decoration:none;
+	color:#eee;
+}
+li{
+	margin:0 1% 0 1%;
+	display:inline;
+}
+#href{
+	width:100%;
+	background-color:black;
+	margin-top:0px;
+	position:fixed;
+}
+#href1{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:20%;
+	margin-right:20%;
+	text-align:center;
+	/*background-color:#eee;
+	position:;
+	*/
+	font-family: "微软雅黑";
+	font-size:30pt;
+	top:0;
+}
+#href3 a{
+	color:black;
+}
+#href ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	list-style:none
+}
+ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	color:black;
+}
+#try{
+	color:none;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+h2{
+	margin-top:0px;
+	padding-bottom:1%;
+/* 	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:1%; */
+}
+p.first{
+	font-family: "造字工房力黑（非商用）";
+	margin-top:0px;
+	padding-top:3%;
+	margin-bottom:0px;
+	font-size:38pt;
+}
+#wenzi{
+	color:none;
+	font-size:10pt;
+	margin-left:10%;
+	margin-right:10%;
+}
+#content{
+	margin-top:3%;
+	margin-bottom:15px;
+	font-family: "造字工房力黑（非商用）";
+	color:#ddd;
+	font-size:40pt;
+}
+p.c{
+	text-align:center;
+	margin:0 0 0 2%;
+}
+#juqing{
+	color:#ddd;
+	float:right;
+	width:48%;
+	margin-left:0;
+	margin-right:10%;
+	margin-top:0;
+	font-size:12pt;
+}
+p.juqing{
+	text-align:justify;
+	margin-top:0px;
+}
+#picture{
+	margin-left:10%;
+	float:left;
+	width:30%;
+	height:auto;
+}
+.tupian{
+	margin-left:10%;
+	width:80%;
+}
+#role{
+	padding-top:3%;
+	margin-bottom:15px;
+	font-family: "造字工房力黑（非商用）";
+	font-size:40pt;
+	color:#ddd;
+	text-align:center;
+	clear:both;
+	margin-top:0px;
+}
+h3{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+@media only screen and (min-width:1024px)
+{
+	.suger{
+		display:block;
+		width:100%;
+		float:right;
+	}
+	.tupian{
+		display:none;
+	}
+
+}
+@media only screen and (min-width:481px) and (max-width:1023px)
+{
+	p.first{
+		font-size:27pt;
+	}
+	.suger{
+	
+		display:none;
+	
+	}
+	.tupian{
+		display:block;
+	}
+	#juqing{
+		margin-left:10%;
+		width:80%;
+	}
+	#content{
+	font-size:30pt;
+	}
+	#role{
+	font-size:30pt;
+	}
+}
+@media only screen and (max-width:480px)
+{
+	.suger{
+	
+		display:none;
+	
+	}
+	.tupian{
+		display:block;
+	}
+}
